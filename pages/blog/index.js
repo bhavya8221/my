@@ -10,7 +10,7 @@ const index = () => {
       "hello check with share facebbok"
     );
     const postImage = encodeURIComponent(
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHAw0__peSC7HkomtxtuaI_g8eLYzNgJXE0z7H-n3H&s"
+      "https://dummyimage.com/600x400/000/fff"
     );
 
     const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${postUrl}&title=${postTitle}&description=${postDescription}&picture=${postImage}`;
@@ -41,7 +41,7 @@ const index = () => {
           />
           <meta
             property="og:image"
-            content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHAw0__peSC7HkomtxtuaI_g8eLYzNgJXE0z7H-n3H&s"
+            content="https://dummyimage.com/600x400/000/fff"
           />
           <meta property="og:url" content="www.dummy.com" />
         </Head>
