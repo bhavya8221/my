@@ -10,7 +10,7 @@ const index = () => {
       "hello check with share facebbok"
     );
     const postImage = encodeURIComponent(
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pcmag.com%2Fhow-to%2Fhidden-facebook-features-only-power-users-know&psig=AOvVaw1cxIi4baKY_W7ntrJ8Vl7b&ust=1683619079501000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKD4zPmf5f4CFQAAAAAdAAAAABAI"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHAw0__peSC7HkomtxtuaI_g8eLYzNgJXE0z7H-n3H&s"
     );
 
     const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${postUrl}&title=${postTitle}&description=${postDescription}&picture=${postImage}`;
@@ -41,7 +41,7 @@ const index = () => {
           />
           <meta
             property="og:image"
-            content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pcmag.com%2Fhow-to%2Fhidden-facebook-features-only-power-users-know&psig=AOvVaw1cxIi4baKY_W7ntrJ8Vl7b&ust=1683619079501000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKD4zPmf5f4CFQAAAAAdAAAAABAI"
+            content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHAw0__peSC7HkomtxtuaI_g8eLYzNgJXE0z7H-n3H&s"
           />
           <meta property="og:url" content="www.dummy.com" />
         </Head>
